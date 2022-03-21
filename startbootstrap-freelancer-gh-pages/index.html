@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>CS - Portfolio Bootstrap Theme</title>
+        <link rel="CS Icon" type="image/png" href="assets/img/coding.png"/>
+        <link rel="stylesheet" type="text/css"
+            href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+        <style>
+        body {
+            font-family: "Computer Modern Sans", sans-serif!important;
+            background-color: #3a3535!important;
+        }
+
+        h1{
+          font-family: "Computer Modern Sans", sans-serif!important;
+          color: #f4f4f4!important;
+        }
+
+        h3{
+          font-family: "Computer Modern Sans", sans-serif!important;
+		  color: #f4f4f4!important;
+		  
+        }
+		
+		h5{
+          font-family: "Computer Modern Sans", sans-serif!important;
+          color: #f4f4f4!important;
+        }
+		
+		h6{
+          font-family: "Computer Modern Sans", sans-serif!important;
+          color: #f4f4f4!important;
+        }
+
+        p {
+          font-family: "Computer Modern Sans", sans-serif!important;
+        }
+        A:link { COLOR: black; TEXT-DECORATION: none; font-weight: normal }
+        A:visited { COLOR: black; TEXT-DECORATION: none; font-weight: normal }
+        A:active { COLOR: black; TEXT-DECORATION: none }
+        A:hover { COLOR: #f4f4f4 !important; TEXT-DECORATION: none; font-weight: none }
+
+        ul{
+          font-family: "Computer Modern Sans", sans-serif!important;
+          color: #f4f4f4!important;
+        }
+
+        .email_link:link{
+          COLOR: #f4f4f4 !important; TEXT-DECORATION: none; font-weight: none;
+        }
+        .email_link:hover{
+          COLOR: #adadad !important; text-decoration: none; font-weight: normal;
+        }
+           </style>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <!-- Code for the map -->
+        <title>Add Map</title>
+        <style type="text/css">
+        /* Set the size of the div element that contains the map */
+        #map {
+        height: 400px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+        }
+      </style>
+      <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const uluru = { lat: 40.440942, lng: -80.006792 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 15,
+          center: uluru,	
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
+    </head>
+    <body id="page-top">
+      <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light navbar-color-custom mx-even mt-3" style="border-radius: 50px">
+          <div class="container-fluid">
+                <div class="col-3 d-flex mt-3">
+                  <h3 href="#top" style="font-size: 2rem;">YOUR_NAME</h3>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+                <div class="col-9 d-flex">
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-item nav-link" href="#about-me">About Me <span class="sr-only">(current)</span></a>
+                      <a class="nav-item nav-link" href="#projects">Projects</a>
+                      <a class="nav-item nav-link" href="#timeline">Timeline</a>
+                      <a class="nav-item nav-link" href="#resume">Resume</a>
+                      <a class="nav-item nav-link" href="#contact">Contact</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        <!-- DELETE BACKGROUND COLOR BEFORE DEPLOYING -->
+        <div class="container">
+          <!-- PUT ABOUT ME IN DIV BELOW -->
+          <div class="row justify-content-center mt-5 animate-timeline show-on-scroll" id="about-me">
+            <h1>About Me</h1><br>
+          </div>
+          <div class="row justify-content-center animate-timeline show-on-scroll">
+            <div class="col-7 py-3">
+              <p style="color: #f4f4f4; text-align: center; font-size:1.25rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus non enim praesent elementum facilisis leo vel fringilla. Nulla aliquet enim tortor at auctor urna nunc. Et sollicitudin ac orci phasellus egestas tellus. Eu consequat ac felis donec et odio. Orci a scelerisque purus semper eget duis at. Sit amet mauris commodo quis imperdiet massa tincidunt. Sollicitudin tempor id eu nisl. Sed turpis tincidunt id aliquet. Pulvinar mattis nunc sed blandit libero volutpat sed cras. Vulputate dignissim suspendisse in est ante in nibh. Vitae suscipit tellus mauris a diam maecenas sed enim. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</p>
+            </div>
+          </div>
+          <!-- PUT PROJECTS IN DIV BELOW -->
+          <div class="row justify-content-center my-3" id="projects">
+            <h1 class="animate-timeline show-on-scroll" style="color: white">Project Showcase</h1>
+            <!-- PROJECT 1 -->
+            <div class="container">
+              <div class="row">
+                <div class="container custom-container">
+                  <a href="#">
+                    <img class="show-on-scroll inline-photo-right" src="assets/img/project_background.png" alt="Card image">
+                  </a>
+                  <div class="bottom-left show-on-scroll">Proj 1 Title</div>
+                </div>
+                <div class="container custom-container">
+                  <a href="#">
+                    <img class="show-on-scroll inline-photo-left" src="assets/img/project_background.png" alt="Card image">
+                  </a>
+                  <div class="bottom-right show-on-scroll">Proj 2 Title</div>
+                </div>
+                <div class="container custom-container">
+                  <a href="#">
+                    <img class="show-on-scroll inline-photo-right" src="assets/img/project_background.png" alt="Card image">
+                  </a>
+                  <div class="bottom-left show-on-scroll">Proj 3 Title</div>
+                </div>
+                <div class="container custom-container">
+                  <a href="#">
+                    <img class="show-on-scroll inline-photo-left" src="assets/img/project_background.png" alt="Card image">
+                  </a>
+                  <div class="bottom-right show-on-scroll">Proj 4 Title</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- PUT TIMELINE IN DIV BELOW -->
+          <div class="row justify-content-center my-3" id="timeline">
+            <h1>Timeline</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-timeline5">
+                            <div class="timeline animate-timeline show-on-scroll">
+                                <div class="timeline-icon"><span class="year">2021</span></div>
+                                <div class="timeline-content">
+                                    <h3 class="title">Web Desginer</h3>
+                                    <p class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline animate-timeline show-on-scroll">
+                                <div class="timeline-icon"><span class="year">2020</span></div>
+                                <div class="timeline-content">
+                                    <h3 class="title">Web Developer</h3>
+                                    <p class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline animate-timeline show-on-scroll">
+                                <div class="timeline-icon"><span class="year">2019</span></div>
+                                <div class="timeline-content">
+                                    <h3 class="title">Web Desginer</h3>
+                                    <p class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline animate-timeline show-on-scroll">
+                                <div class="timeline-icon"><span class="year">2018</span></div>
+                                <div class="timeline-content">
+                                    <h3 class="title">Web Developer</h3>
+                                    <p class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!-- PUT RESUME/CLASSES IN DIV BELOW -->
+          <div class="row justify-content-center mt-3" id="resume">
+            <h1>Resume</h1>
+			
+			
+			<div class="container">
+			
+			<h5 class="text-center">Full CV</h5>
+				<div class="row animate-timeline show-on-scroll">
+					<div class="col">
+					
+						<hr/>
+						<h3 class="text-center">Education</h3>
+						<hr/>
+						
+						<h5 class="text-center">B.A. Communication</h3>
+						<h5 class="text-center">University of Pittsburgh</h3>
+						<h6 class="text-center">2018-2022</h6>
+						<h6 class="text-center">GPA: 4.0</h6>
+						
+						
+						
+						
+						
+						
+					</div>
+					<div class="col">
+					
+						<hr/>
+						<h3 class="text-center">Certifications</h3>
+						<hr/>
+						<h6 class="text-center">American Sign Language Certificate</h6>
+						<h6 class="text-center">Digital Media Certificate</h6>
+						
+						
+						
+						
+					</div>
+					<div class="w-100"></div>
+					<div class="col">
+						<hr/>
+						<h3 class="text-center">Skills</h3>
+						<hr/>
+						
+						
+						
+						<h6 class="text-center">Java</h6>
+						<h6 class="text-center">Python</h6>
+						<h6 class="text-center">HTML/CSS</h6>
+						<h6 class="text-center">Adobe Indesign</h6>
+						<h6 class="text-center">Adobe Illustrator</h6>
+						
+						
+						
+						
+					</div>
+					<div class="col">
+						<hr/>
+						<h3 class="text-center">Awards</h3>
+						<hr/>
+						
+						<h6 class="text-center">Lorem State Hackathon, 1st Place - 2019</h6>
+						<h6 class="text-center">Ipsum Seed Fund Recipient - 2020</h6>
+						
+						
+						
+					</div>
+				</div>
+
+				
+			</div>
+			
+			<!--education-->
+			<!--hard skills -->
+			<!--soft skills -->
+			<!--certifications -->
+			<!--awards -->
+			
+          </div>
+		  
+		  
+		  
+          <!-- PUT CONTACT IN DIV BELOW -->
+          <div class="row justify-content-center my-3" id="contact">
+            <h1>Let's get in touch</h1>
+          </div>
+		  
+          <div class="row justify-content-center my-3 animate-timeline show-on-scroll">
+            <h5><ul>Phone: 412-123-4567<br></ul></h5>
+            <ul><a class="email_link" href="mailto:email@example.com?subject=Mail from our Website"><h5>Click to email: example@example.com</h5></a><br></ul>
+            <h5><ul>Address: 123 Main St. <br>Pittsburgh, PA 15213</ul></h5>
+            <ul><a class="email_link" href="https://www.linkedin.com/thisaccountdoesnotexist?_l=en_US"><h5>Visit my LinkedIn</h5></a><br></ul>
+          </div>
+          <div id="map" class="animate-timeline show-on-scroll"></div>
+
+            <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+            <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwavnkTxkKZuYzVVlu9KKzM37e9ctIap0&callback=initMap&libraries=&v=weekly"
+            async
+            ></script>
+        </div>
+
+      </div>
+	  
+	  
+
+      <script type="text/javascript" src="js/show-on-scroll.js"></script>
+	  
+	  <footer>
+	  <p>&nbsp;
+	  <p>&nbsp;
+	  
+	  </footer>
+	  
+    </body>
+</html>
